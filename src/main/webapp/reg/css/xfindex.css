@@ -1,0 +1,291 @@
+/* 
+* @Author: anchen
+* @Date:   2016-11-17 21:11:04
+* @Last Modified by:   anchen
+* @Last Modified time: 2016-11-20 16:52:25
+*/
+body{
+    overflow-x: hidden;
+}
+
+*{margin:0px;padding:0px;}
+.lunboimg img{
+    width: 100%;
+    height: auto;
+    -webkit-background-size: 100% auto;
+    background-size: 100% auto;
+}
+.image_100 img{
+    width: 200px;
+    height:120px;
+    margin-left: 15px;
+}
+.container-fluid{
+    margin: 0;
+    padding: 0px;
+    overflow: hidden;
+}
+
+.clear{
+    clear: both;
+}
+/*导航栏*/
+
+.nva_font{
+    color: #ccc;
+    font-size: 18px;
+    font-weight: bold;
+}
+.nva_font_small{
+    font-size: 15px;
+    color: #979797;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+    font-size: 16px;
+}
+.navbar-nav{
+    width: 100%;
+}
+.border_none{
+    border: none;
+}
+.border_buttom_dashe{
+    border-bottom: 1px dashed #A9A9A9;
+}
+.border_buttom_solid{
+    border-bottom: 1px solid  #F2F2F2;
+}
+.border_right_solid{
+    border-right: 1px solid  #F2F2F2;
+}
+.display_if{
+     display: block;
+}
+.margn_top{
+    margin-top: 70px;
+}
+.margn_top30{
+    margin-top: 30px;
+}
+.margn_top10{
+    margin-top: 10px;
+}
+
+.margn_left10{
+    margin-left: 10%;
+}
+.margn_left20p{
+    margin-left: 20px;
+}
+.margn_10{
+    margin: 10px;
+}
+.bgc{
+    background-color: #000;
+}
+.bgc_h{
+    background-color: #F2F5F8;
+}
+.bgc_b{
+    background-color: #62594C;
+}
+.bgc_0{
+    background-color: #000;
+}
+.bgc_f{
+    background-color: #fff;
+}
+.bgc_c{
+    background-color: #ccc;
+}
+.bgc_g{
+    background-color: #90B71E;
+    opacity: 0.2;
+}
+.bgc_shiji{
+    background-color: #F2F5F8;
+}
+.bgc_l{
+    background-color: #3F971D;
+}
+.bgc_n{
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #8FB316;
+    opacity:0.7;
+}
+.bgc_xs{
+    background-color: #e5f1c7;
+}
+.bgimg{
+    background-image: url("/reg/images/backgroundimg.jpg");
+}
+
+.color_c{
+    color: #2b542c;
+}
+.color_f{
+    color: #ffffff;
+}
+.color_g{
+    color: #8FB316;
+}
+.color_r{
+    color:red;
+}
+.li_hover li:hover{
+    background-color: #ccc;
+    cursor: pointer;
+}
+.height_1000{
+    height: 1000px;
+}
+.height_50{
+    height: 50px;
+}
+.height_100{
+    height:100px;
+}
+.height_40{
+    height: 40px;
+}
+.line_height_50{
+    line-height: 50px;
+}
+.line_height_40{
+    line-height: 40px;
+}
+.line_height_30{
+    line-height: 25px;
+}
+.width_25{
+    width: 25%;
+    height: 30px;
+    font-family: 华文新魏;
+    font-size: 20px;
+}
+.width_100{
+    width: 100%;
+}
+.width_90{
+    width: 90%;
+}
+.width_95{
+    width: 95%;
+}
+.maxwidth{
+    max-width: 1366px;
+    margin: 0 auto;
+}
+.width_75{
+    width: 75%;
+}
+.width_50{
+    width: 50%;
+}
+.width_30{
+    width: 30%;
+}
+.delea{
+    text-decoration: none;
+    color: #8FB316;
+}
+.transition{
+
+    -webkit-transition:all .5s linear;
+    -moz-transition:all .5s linear;
+    -ms-transition:all .5s linear;
+    -o-transition:all .5s linear;
+    transition:all .5s linear;
+}
+.mouseover_red:hover{
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #8FB316;
+    opacity:0.7;
+}
+
+.textalign_left{
+    text-align: left;
+}
+.textalign_right{
+    text-align: right;
+}
+.textalign_center{
+    text-align: center;
+}
+.alignimg img{
+    float: left;
+    margin-left: 10px;
+}
+.fontsize{
+    font-size: 15px;
+}
+.fontsize20{
+    font-size: 20px;
+}
+.fontsize10{
+    font-size: 10px;
+}
+.fontfamil{
+    font-family: '华文行楷';
+}
+.fontcolor_bt{
+    color: #7FA409;
+    font-size: 20px;
+}
+.fontcolor_fff{
+    color: #fff;
+}
+.paddimg30{
+    padding: 30px 0;
+}
+.padding_buttom50{
+    padding-bottom: 50px;
+}
+.padding10{
+    padding: 15px 0 10px 10px;
+}
+.padding50{
+    padding: 50px 0px;
+}
+.letter5{
+    letter-spacing:5px
+}
+.letter2{
+    letter-spacing:2px
+}
+.float_left{
+    float: left;
+}
+ul{
+    list-style: none;
+}
+
+/*手机端口*/
+@media all and (min-width:0px) and (max-width:720px){
+.nva_bg{height: 50px}
+.nva-logo{margin: -10px 0 0 0;height:35px;}
+.margn10{margin: 0px 20px}
+    .navbar-default{
+        background-color: rgba(0,0,0,0.4);
+    }
+}
+/*平板端口*/
+@media all and (min-width:721px) and (max-width:1080px){
+.nva_bg{height: 70px}
+.nva-logo{margin:-10px 0 0 0;height: 55px;}
+.margn_top{margin-top: 100px;}
+    .navbar-default{
+        background-color: #81A548;
+    }
+}
+/*pc端口*/
+@media all and (min-width:1081px) and (max-width:2020px){
+.nva_bg{height: 80px}
+.nva-logo{height: 60px;margin:-15px 0 0 0;}
+    .navbar-default{
+        background-color: #81A548;
+    }
+}
